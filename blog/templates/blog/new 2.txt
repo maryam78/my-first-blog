@@ -1,0 +1,20 @@
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="Q9PR4MCZMCVYQ">
+<table>
+<tr><td><input type="hidden" name="on0" value="CHOOSE PACKAGES">CHOOSE PACKAGES</td></tr><tr><td><select name="os0">
+	<option value="OPENING SPECIALS">OPENING SPECIALS $560.00 CAD</option>
+	<option value="PACKAGE 1">PACKAGE 1 $590.00 CAD</option>
+	<option value="PACKAGE 2">PACKAGE 2 $400.00 CAD</option>
+	<option value="PACKAGE 3">PACKAGE 3 $200.00 CAD</option>
+	<option value="PACKAGE 4">PACKAGE 4 $40.00 CAD</option>
+	<option value="PACKAGE 5">PACKAGE 5 $60.00 CAD</option>
+	<option value="PACKAGE 6">PACKAGE 6 $110.00 CAD</option>
+	<option value="PACKAGE 7">PACKAGE 7 $125.00 CAD</option>
+	<option value="Deposit - Balance in office/classroom">Deposit - Balance in office/classroom $100.00 CAD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="CAD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>

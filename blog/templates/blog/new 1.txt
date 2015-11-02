@@ -1,0 +1,9 @@
+<div class="page-changer" style="height: 600px; margin-top: 200px; margin-left: 330px;">
+<h5>Please choose your city</h5>
+<a href="http://shanidrivingschool.com/">Guelph</a>
+
+<a href="http://shanidrivingschool.com/waterloo-location">Waterloo</a>
+
+<a href="http://shanidrivingschool.com/waterloo-location">Cambridge</a>
+
+</div>
