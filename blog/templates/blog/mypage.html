@@ -1,0 +1,62 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Django  blog</title>
+    <link rel="stylesheet" href="{% static "css/animate.css" %}">
+	<link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+	<link rel="stylesheet" href="{% static "css/font-awesome.min.css" %}">
+	<link rel="stylesheet" href="{% static "css/icon.css" %}">
+	<link rel="stylesheet" href="{% static "css/jquery-ui.css" %}">
+	<link rel="stylesheet" href="{% static "css/loader.css" %}">
+	<link rel="stylesheet" href="{% static "css/style.css" %}">
+	<link rel="stylesheet" href="{% static "css/style2.css" %}">
+	<link rel="stylesheet" href="{% static "css/stylesheet.css" %}">
+	<link href="http://fonts.googleapis.com/css?family=Rancho rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	
+	</head>
+    <body>
+<script src="script/jquery-2.1.4.min.js"></script>
+<script src="script/jquery-ui.min.js"></script>
+    <!-- a swiper -->
+<script src="script/idangerous.swiper.min.js"></script>
+    <!-- a loader    -->
+<script src="script/loader.js"></script>
+    <!-- bootstrap -->
+<script src="script/bootstrap.min.js"></script>
+    <!-- animations -->
+<script src="script/wow.min.js"></script>
+
+
+<!-- MY SCRIPT    -->
+
+<script src="script/script.js"></script>
+
+<!-- animation script -->
+
+<script>
+    var wow = new WOW(
+        {
+            boxClass:     'wow',      // animated element css class (default is wow)
+            animateClass: 'animated', // animation css class (default is animated)
+            offset:       100,          // distance to the element when triggering the animation (default is 0)
+            mobile:       true,       // trigger animations on mobile devices (default is true)
+            live:         true,       // act on asynchronously loaded content (default is true)
+            callback:     function(box) {
+              // the callback is fired every time an animation is started
+              // the argument that is passed in is the DOM node being animated
+            }
+        }
+    );
+    $(window).load(function(){
+        wow.init();    
+    });
+     $('.center-image').each(function(){
+          var bgSrc = $(this).attr('src');
+          $(this).parent().css({'background-image':'url('+bgSrc+')'});
+          $(this).hide();
+         });
+    
+</script>
+	</body>
+</html>
